@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+	int i,j,n;
+	clrscr();
+	printf("\n Enter Line Count: ");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		for(j=1;i+j<=n+1;j++)
+			printf("*");
+		printf("\n");
+	}
+	getch();
+	return;
+}
